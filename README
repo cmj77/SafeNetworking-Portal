@@ -1,0 +1,19 @@
+author: Michael Clark
+
+
+1. Download Pre-Req APPs and install on system - 
+   a. Docker CE - https://www.docker.com/community-edition#/download
+   b. GIT - OS X -      brew install GIT
+         Windows -      Download and install git app - https://git-scm.com/downloads
+           Linux -      apt-get install git or yum install git
+2. Start Docker CE App 
+
+3. Go to cli and run: git clone https://github.com/cmj77/SafeNetworking-Portal.git
+
+4. cd SafeNetworking-Portal - go into directory that was just cloned
+
+5. run from cli - docker-compose build
+
+6. run from cli - docker-compose up
+
+7. Access the containers website to validate that it is running http://0.0.0.0:8888
